@@ -1,6 +1,16 @@
+# Python
 __pycache__/
 *.pyc
-.DS_Store
-*.log
+
+# ROS
+catkin_ws/devel/
+catkin_ws/build/
+catkin_ws/install/
+
+# Virtual environments
 venv/
-*.pyc
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
