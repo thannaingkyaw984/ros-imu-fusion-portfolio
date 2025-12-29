@@ -1,0 +1,12 @@
+<launch>
+    <!-- Parameters သတ်မှတ်မယ် -->
+    <param name="sensor_rate" type="double" value="5.0" />
+    <param name="sensor_name" type="string" value="fusion_sensor" />
+    
+    <!-- Test node ကို run မယ် -->
+    <node pkg="sensor_fusion" type="test_node.py" name="test_node" output="screen"/>
+    
+    <!-- Parameter node ကို run မယ် -->
+    <node pkg="sensor_fusion" type="param_node.py" name="param_node" output="screen"/>
+    
+</launch>

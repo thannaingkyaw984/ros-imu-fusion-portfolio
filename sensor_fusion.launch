@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="sensor_fusion" type="test_node.py" name="sensor_fusion_node" output="screen"/>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim" if="$(arg show_turtle)"/>
+</launch>
