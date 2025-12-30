@@ -1,42 +1,32 @@
-# ROS IMU-Camera Fusion with Ethical Tracking Simulator
+# 🚀 ROS IMU-Camera Fusion Portfolio
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![ROS](https://img.shields.io/badge/ROS-Noetic-blue.svg)](https://www.ros.org/)
-[![Python](https://img.shields.io/badge/Python-3.8+-green.svg)](https://python.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)](https://github.com/thannaingkyaw984/ros-imu-fusion-portfolio)
 
-## 🚀 Overview
-A complete ROS-based sensor fusion system simulating IMU and camera data integration with ethical AI principles.
+## 📋 Overview
+Professional ROS portfolio project demonstrating sensor fusion techniques between IMU and camera data with ethical AI implementation principles.
 
-## ✨ Features
-- ✅ **Real-time Sensor Simulation**: IMU and camera data fusion
-- ✅ **Ethical AI Focus**: 100% synthetic data for educational purposes
-- ✅ **Complete ROS Workspace**: Custom nodes, topics, and launch files
-- ✅ **Professional Documentation**: Comprehensive project documentation
+## 🎯 Features
+- **Sensor Fusion**: Kalman Filter implementation for IMU-camera data fusion
+- **ROS Integration**: Complete ROS package structure with launch files
+- **Ethical AI**: Transparent decision-making processes documented
+- **Visualization**: RViz configurations for sensor data visualization
+- **Documentation**: Comprehensive code documentation and usage examples
 
-## 📁 Project Structure
-```
-ros-imu-fusion-portfolio/
-├── ethical_tracking_sim.py    # Ethical tracking simulator
-├── imu_publisher.py           # IMU data publisher
-├── sensor_fusion.launch       # Main ROS launch file
-├── sensor_fusion_demo.launch  # Demo configuration
-├── profile_photo.jpg          # Professional profile photo
-├── README.md                  # This documentation
-├── LICENSE                    # MIT License
-└── .gitignore                # Git ignore rules
-```
-
-## 🔧 Quick Start
-```bash
-# Clone repository
-git clone https://github.com/thannaingkyaw984/ros-imu-fusion-portfolio.git
-cd ros-imu-fusion-portfolio
-```
-
-## 👤 Author
-**Thannaing Kyaw**
-Robotics & Autonomous Systems Developer
-
-📍 Myanmar | 💼 Available for remote positions
-📧 thannaingkyaw79@gmail.com
-🔗 GitHub: [thannaingkyaw984](https://github.com/thannaingkyaw984)
+## 🏗️ Project Structure
+ros-imu-portfolio/
+├── CMakeLists.txt
+├── package.xml
+├── README.md
+├── .gitignore
+├── LICENSE
+├── src/
+│ └── imu_fusion_node.py
+├── launch/
+│ └── imu_camera_fusion.launch
+├── config/
+│ └── kalman_filter_params.yaml
+└── rviz/
+└── sensor_viz.rviz
